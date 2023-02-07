@@ -161,5 +161,8 @@
   <ItemGroup>
     <Resource Include="Res\Image\bakery-bread-background-vector-2107526.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Res\Image\Лого.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

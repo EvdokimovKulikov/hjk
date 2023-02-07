@@ -5,9 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BakeryEvdokimovKulikovv"
         mc:Ignorable="d"
-        Title="MainWindow" Height="1200" Width="1000" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+        Title="MainWindow" Height="1100" Width="1000" WindowStartupLocation="CenterScreen">
 
     <Grid >
+        
+        
         <Grid.Background>
             <ImageBrush ImageSource="/BakeryEvdokimovKulikovv;component/Res/Image/bakery-bread-background-vector-2107526.jpg"/>
         </Grid.Background>
@@ -29,15 +31,16 @@
                     <GradientStop Color="#FFD98538" Offset="0.626"/>
                 </LinearGradientBrush>
             </Border.Background>
+           
         </Border>
-        <TextBox x:Name="LoginBox" Grid.Column="1" Grid.Row="1" Width="400" Height="50" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,150,0,0" Text="Login" FontSize="30"  Foreground="#FFBFBFBF"
-                 GotFocus="LoginBox_GotFocus"
-                 LostFocus="LoginBox_LostFocus">
+        <TextBlock Grid.Column="1" Grid.Row="1" TextWrapping="Wrap" Text="Login" FontSize="24" Margin="190,100,0,0"/>
+        <TextBlock Grid.Column="1" Grid.Row="1" TextWrapping="Wrap" Text="Password" FontSize="24" Margin="190,230,0,0"/>
+        <TextBox x:Name="LoginBox" Grid.Column="1" Grid.Row="1" Width="400" Height="50" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,150,0,0" FontSize="30"  Foreground="#FFBFBFBF" >
             <TextBox.Effect>
                 <DropShadowEffect/>
             </TextBox.Effect>
         </TextBox>
-        <TextBox x:Name="PasswordBox" Grid.Column="1" Grid.Row="1" Width="400" Height="50" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,240,0,0"  Text="Password" FontSize="30"  Foreground="#FFBFBFBF" AllowDrop="True"  >
+        <TextBox x:Name="RegistratoinBox" Grid.Column="1" Grid.Row="1" Width="400" Height="50" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,270,0,0"  FontSize="30"  Foreground="#FFBFBFBF"  >
             <TextBox.Effect>
                 <DropShadowEffect/>
             </TextBox.Effect>
@@ -48,6 +51,6 @@
             </Button.Effect>
         </Button>
         <Button x:Name="Register" Content="Регистрация"  Grid.Column="1"  Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Width="200" Height="30" Margin="0,200,0,0" Background="#FFE59013" Click="Register_Click"   />
-
+        <Image Source="/Res/Image/Лого.png" Grid.ColumnSpan="2" HorizontalAlignment="Left" Width="250" Height="150" Stretch="Uniform" VerticalAlignment="Center" Margin="50,0,0,0" />
     </Grid>
 </Window> 

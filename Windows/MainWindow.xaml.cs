@@ -38,21 +38,9 @@ namespace BakeryEvdokimovKulikovv
             reg.Show();
         }
 
-        private void LoginBox_GotFocus(object sender, RoutedEventArgs e)
-        {
-            var logBox = (TextBox)sender;
-            if (logBox.Text != "Login") return;
+        
 
-            logBox.Clear();
-        }
 
-        private void LoginBox_LostFocus(object sender, RoutedEventArgs e)
-        {
-            var logBox = (TextBox)sender;
-            if (logBox.Text != "") return;
-
-            logBox.Text = "Login";
-        }
     }
+
 }
-/////
