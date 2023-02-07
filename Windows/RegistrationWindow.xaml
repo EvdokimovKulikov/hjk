@@ -32,7 +32,7 @@
         <TextBox x:Name="FirstName" Grid.Row="0" Grid.Column="0" TextWrapping="Wrap" Text="FirstName" Width="400" HorizontalAlignment="Center" VerticalAlignment="Center" Height="70" FontSize="40" Foreground="#FFBFBFBF" Margin="0,50,0,0" />
         <TextBox x:Name="LastName" Grid.Row="0" Grid.Column="1" TextWrapping="Wrap" Text="LastName" Width="400" HorizontalAlignment="Center" VerticalAlignment="Center" Height="70" FontSize="40" Foreground="#FFBFBFBF" Margin="0,50,0,0" />
         <Button x:Name="button" Content="Зарегистрироваться" Grid.ColumnSpan="2" Grid.Row="3" Width="300" Height="100" Margin="0,60,0,0" Click="button_Click" FontSize="24"/>
-        
+        <TextBlock x:Name="gsdgsa" Grid.Row="4" Text="adidas" FontSize="36" ButtonBase.Click="Click" HorizontalAlignment="Center" VerticalAlignment="Center" Width="200" Height="150"  Margin="1,1,1,1"  />
         
 
 

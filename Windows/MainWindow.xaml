@@ -49,9 +49,9 @@
                 <DropShadowEffect/>
             </Button.Effect>
         </Button>
-        <Button x:Name="Register" Content="Регистрация"  Grid.Column="1"  Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Width="200" Height="30" Margin="0,350,0,0" Background="#FFE59013" Click="Register_Click"   />
+        <Button x:Name="Register" Content="Регистрация"  Grid.Column="1"  Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Width="220" Height="40" Margin="0,350,0,0" Background="#FFE59013" Click="Register_Click"   />
         <Image Source="/Res/Image/grg.png" Grid.Row="1"  HorizontalAlignment="Left" Width="300" Height="200" Stretch="Uniform" VerticalAlignment="Top"  Grid.ColumnSpan="2" Margin="100,0,0,0" />
-        <TextBlock TextWrapping="Wrap" Text="Bakery-№1" Grid.Column="1" Grid.Row="1" FontSize="48" Margin="250,70,0,0" IsEnabled="False" FontFamily="Sitka Small"   />
-        
+        <TextBlock TextWrapping="Wrap" Text="Bakery-№1" Grid.Column="1" Grid.Row="1" FontSize="48" Margin="250,70,111,620" IsEnabled="False" FontFamily="Sitka Small" Grid.ColumnSpan="2"   />
+
     </Grid>
 </Window> 

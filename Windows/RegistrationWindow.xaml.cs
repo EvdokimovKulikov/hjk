@@ -29,6 +29,18 @@ namespace BakeryEvdokimovKulikovv.Windows
             Close();
         }
 
-        
+        private void Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow reg = new MainWindow();
+               this.Close();
+                reg.Show();
+        }
+
+        //private void gsdgsa_Click(object sender, RoutedEventArgs e)
+        //{
+        //    MainWindow reg = new MainWindow();
+        //    this.Close();
+        //    reg.Show();
+        //}
     }
 }
